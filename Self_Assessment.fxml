@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="696.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Self Assessment" textAlignment="CENTER" wrappingWidth="356.13671875">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Agency FB" size="36.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Which of the following symptoms do you have: " wrappingWidth="522.90625">
+               <VBox.margin>
+                  <Insets right="55.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Book Antiqua" size="24.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="F.name, L.name" wrappingWidth="130.4228515625">
+               <VBox.margin>
+                  <Insets right="350.0" top="500.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Submit">
+               <VBox.margin>
+                  <Insets right="-300.0" top="-35.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Check all that apply" textAlignment="CENTER" wrappingWidth="129.13671875">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <VBox.margin>
+                  <Insets right="425.0" top="-520.0" />
+               </VBox.margin>
+            </Text>
+            <CheckBox mnemonicParsing="false" prefHeight="16.0" prefWidth="57.0" text="Cough">
+               <VBox.margin>
+                  <Insets right="450.0" top="15.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Fever or Chills">
+               <VBox.margin>
+                  <Insets right="390.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" text="Difficulty breathing">
+               <VBox.margin>
+                  <Insets right="383.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" text="Headache">
+               <VBox.margin>
+                  <Insets right="432.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" text="Muscle or body aches">
+               <VBox.margin>
+                  <Insets right="369.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" text="Fatigue">
+               <VBox.margin>
+                  <Insets right="400.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="206.0" text="Loss of taste or smell">
+               <VBox.margin>
+                  <Insets right="300.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="107.0" text="Sore throat">
+               <VBox.margin>
+                  <Insets right="400.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="206.0" text="Congestion or runny nose">
+               <VBox.margin>
+                  <Insets right="300.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" text="Nausea or vomiting">
+               <VBox.margin>
+                  <Insets right="380.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="84.0" text="Diarrhea">
+               <VBox.margin>
+                  <Insets right="420.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" text="Headache">
+               <VBox.margin>
+                  <Insets right="430.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="55.0" text="Other">
+               <VBox.margin>
+                  <Insets right="450.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="List other symptoms:" underline="true" wrappingWidth="226.13671875">
+               <VBox.margin>
+                  <Insets right="280.0" top="8.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unusual Symptoms">
+               <VBox.margin>
+                  <Insets right="-220.0" top="-376.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <CheckBox mnemonicParsing="false" text="Gastrointestinal symptoms">
+               <VBox.margin>
+                  <Insets right="-290.0" top="15.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="163.0" text="Skin Changes">
+               <VBox.margin>
+                  <Insets right="-290.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="163.0" text="Confusion">
+               <VBox.margin>
+                  <Insets right="-290.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="172.0" text="Eye Problems">
+               <VBox.margin>
+                  <Insets right="-300.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="173.0" text="Bluish lips or face">
+               <VBox.margin>
+                  <Insets right="-300.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="272.0" text="Chest tightness">
+               <VBox.margin>
+                  <Insets right="-400.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="322.0" text="Stroke">
+               <VBox.margin>
+                  <Insets right="-450.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="472.0" text="Foot rash">
+               <VBox.margin>
+                  <Insets right="-600.0" top="8.0" />
+               </VBox.margin>
+            </CheckBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
