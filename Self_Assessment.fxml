@@ -8,10 +8,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox alignment="TOP_CENTER" prefHeight="696.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox alignment="TOP_CENTER" prefHeight="696.0" prefWidth="600.0" AnchorPane.bottomAnchor="-18.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Self Assessment" textAlignment="CENTER" wrappingWidth="356.13671875">
                <VBox.margin>
@@ -61,11 +60,6 @@
             <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="116.0" text="Fever or Chills">
                <VBox.margin>
                   <Insets right="390.0" top="8.0" />
-               </VBox.margin>
-            </CheckBox>
-            <CheckBox mnemonicParsing="false" text="Difficulty breathing">
-               <VBox.margin>
-                  <Insets right="383.0" top="8.0" />
                </VBox.margin>
             </CheckBox>
             <CheckBox mnemonicParsing="false" text="Headache">
@@ -123,9 +117,9 @@
                   <Insets right="280.0" top="8.0" />
                </VBox.margin>
             </Text>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unusual Symptoms">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Unusual Symptoms:">
                <VBox.margin>
-                  <Insets right="-220.0" top="-376.0" />
+                  <Insets right="-220.0" top="-350.0" />
                </VBox.margin>
                <font>
                   <Font size="14.0" />
@@ -141,11 +135,6 @@
                   <Insets right="-290.0" top="8.0" />
                </VBox.margin>
             </CheckBox>
-            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="163.0" text="Confusion">
-               <VBox.margin>
-                  <Insets right="-290.0" top="8.0" />
-               </VBox.margin>
-            </CheckBox>
             <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="172.0" text="Eye Problems">
                <VBox.margin>
                   <Insets right="-300.0" top="8.0" />
@@ -154,11 +143,6 @@
             <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="173.0" text="Bluish lips or face">
                <VBox.margin>
                   <Insets right="-300.0" top="8.0" />
-               </VBox.margin>
-            </CheckBox>
-            <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="272.0" text="Chest tightness">
-               <VBox.margin>
-                  <Insets right="-400.0" top="8.0" />
                </VBox.margin>
             </CheckBox>
             <CheckBox mnemonicParsing="false" prefHeight="17.0" prefWidth="322.0" text="Stroke">
